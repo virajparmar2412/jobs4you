@@ -1,0 +1,510 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy WP SMTP 1.5.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easy-wp-smtp\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-12-21T07:27:38+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: easy-wp-smtp\n"
+
+#. Plugin Name of the plugin
+#: class-easywpsmtp-admin.php:43
+msgid "Easy WP SMTP"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://easywpsmtp.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Send email via SMTP from your WordPress Blog"
+msgstr ""
+
+#. Author of the plugin
+msgid "Easy WP SMTP team"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:30
+msgid "Are you sure want to clear log?"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:31
+msgid "Log cleared."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:32
+msgid "Error occurred:"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:33
+msgid "Sending..."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:34
+msgid "Are you sure you want to delete ALL your settings and deactive plugin?"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:35
+msgid "All settings have been deleted and plugin is deactivated."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:60
+msgid "PHP OpenSSL extension is not installed on the server. It's required by Easy WP SMTP plugin to operate properly. Please contact your server administrator or hosting provider and ask them to install it."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:63
+msgid "PHP OpenSSL extension is not installed on the server. It is required for encryption to work properly. Please contact your server administrator or hosting provider and ask them to install it."
+msgstr ""
+
+#. translators: %s is PHP version
+#: class-easywpsmtp-admin.php:71
+msgid "Your PHP version is %s, encryption function requires PHP version 5.3.0 or higher."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:76
+msgid "Easy WP SMTP Settings"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:96
+#: easy-wp-smtp.php:398
+msgid "Nonce check failed."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:107
+msgid "Please enter a valid email address in the 'FROM' field."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:154
+msgid "Please enter a valid port in the 'SMTP Port' field."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:163
+msgid "Settings saved."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:165
+msgid "Settings are not saved."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:177
+msgid "Please enter a valid email address in the recipient email field."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:203
+msgid "SMTP Settings"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:204
+msgid "Additional Settings"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:205
+#: class-easywpsmtp-admin.php:437
+msgid "Test Email"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:218
+msgid "SMTP Configuration Settings"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:221
+msgid "You can request your hosting provider for the SMTP details of your site. Use the SMTP details provided by your hosting provider to configure the following settings."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:225
+msgid "From Email Address"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:228
+msgid "This email address will be used in the 'From' field."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:232
+msgid "From Name"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:235
+msgid "This text will be used in the 'FROM' field"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:237
+msgid "Force From Name Replacement"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:239
+msgid "When enabled, the plugin will set the above From Name for each email. Disable it if you're using contact form plugins, it will prevent the plugin from replacing form submitter's name when contact email is sent."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:241
+msgid "If email's From Name is empty, the plugin will set the above value regardless."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:246
+msgid "Reply-To Email Address"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:249
+msgid "Optional. This email address will be used in the 'Reply-To' field of the email. Leave it blank to use 'From' email as the reply-to value."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:251
+msgid "Substitute Mode"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:253
+msgid "When enabled, the plugin will substitute occurances of the above From Email with the Reply-To Email address. The Reply-To Email will still be used if no other Reply-To Email is present. This option can prevent conflicts with other plugins that specify reply-to email addresses but still replaces the From Email with the Reply-To Email."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:258
+msgid "BCC Email Address"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:261
+msgid "Optional. This email address will be used in the 'BCC' field of the outgoing emails. Use this option carefully since all your outgoing emails from this site will add this address to the BCC field. You can also enter multiple email addresses (comma separated)."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:266
+msgid "SMTP Host"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:269
+msgid "Your mail server"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:273
+msgid "Type of Encryption"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:280
+msgid "None"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:286
+msgid "SSL/TLS"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:292
+msgid "STARTTLS"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:293
+msgid "For most servers SSL/TLS is the recommended option"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:297
+msgid "SMTP Port"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:300
+msgid "The port to your mail server"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:304
+msgid "SMTP Authentication"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:311
+msgid "No"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:317
+#: inc/UserFeedback.php:77
+msgid "Yes"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:318
+msgid "This options should always be checked 'Yes'"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:322
+msgid "SMTP Username"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:325
+msgid "The username to login to your mail server"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:329
+msgid "SMTP Password"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:332
+msgid "The password to login to your mail server"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:333
+#: class-easywpsmtp-admin.php:396
+#: class-easywpsmtp-admin.php:439
+#: class-easywpsmtp-admin.php:491
+msgctxt "\"Note\" as in \"Note: keep this in mind\""
+msgid "Note:"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:333
+msgid "when you click \"Save Changes\", your actual password is stored in the database and then used to send emails. This field is replaced with a gag (#easywpsmtpgagpass#). This is done to prevent someone with the access to Settings page from seeing your password (using password fields unmasking programs, for example)."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:338
+#: class-easywpsmtp-admin.php:403
+msgid "Save Changes"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:348
+msgid "Additional Settings (Optional)"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:352
+msgid "Don't Replace \"From\" Field"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:355
+msgid "Comma separated emails list. Example value: email1@domain.com, email2@domain.com"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:356
+msgid "This option is useful when you are using several email aliases on your SMTP server. If you don't want your aliases to be replaced by the address specified in \"From\" field, enter them in this field."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:360
+msgid "Enable Domain Check"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:363
+msgid "This option is usually used by developers only. SMTP settings will be used only if the site is running on following domain(s):"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:365
+msgid "Coma-separated domains list. Example: domain1.com, domain2.com"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:367
+msgid "Block all emails"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:369
+msgid "When enabled, plugin attempts to block ALL emails from being sent out if domain mismatch."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:373
+msgid "Encrypt Password"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:377
+msgid "When enabled, your SMTP password is stored in the database using AES-256 encryption."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:384
+msgid "Allow Insecure SSL Certificates"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:387
+msgid "Allows insecure and self-signed SSL certificates on SMTP server. It's highly recommended to keep this option disabled."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:391
+msgid "Enable Debug Log"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:394
+msgid "Check this box to enable mail debug log"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:396
+msgid "debug log is reset when the plugin is activated, deactivated or updated."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:398
+msgid "View Log"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:398
+msgid "Clear Log"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:410
+msgid "Danger Zone"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:412
+msgid "Actions in this section can (and some of them will) erase or mess up your settings. Use it with caution."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:419
+msgid "Delete Settings and Deactivate Plugin"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:421
+msgid "Self-destruct"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:421
+msgid "This will remove ALL your settings and deactivate the plugin. Useful when you're uninstalling the plugin and want to completely remove all crucial data stored in the database."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:422
+msgid "Warning! This can't be undone."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:439
+msgid "You have unsaved settings. In order to send a test email, you need to go back to previous tab and click \"Save Changes\" button first."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:445
+msgid "Following error occurred when attempting to send test email:"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:448
+msgid "Test email was successfully sent. No errors occurred during the process."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:459
+#: class-easywpsmtp-admin.php:467
+msgid "Show Debug Log"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:469
+msgid "Hide Debug Log"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:490
+msgid "You can use this section to send an email from your server using the above configured SMTP details to see if the email gets delivered."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:491
+msgid "debug log for this test email will be automatically displayed right after you send it. Test email also ignores \"Enable Domain Check\" option."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:496
+msgid "To"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:499
+msgid "Enter the recipient's email address"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:503
+msgid "Subject"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:506
+msgid "Enter a subject for your message"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:510
+msgid "Message"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:513
+msgid "Write your email message"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:518
+msgid "Send Test Email"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:532
+msgid "Documentation"
+msgstr ""
+
+#. translators: %s is replaced by documentation page URL
+#: class-easywpsmtp-admin.php:538
+msgctxt "%s is replaced by <a target=\"_blank\" href=\"https://easywpsmtp.com/easy-wp-smtp-plugin-quick-setup-guide/\">Easy WP SMTP</a>"
+msgid "Please visit the %s plugin's documentation page to learn how to use this plugin."
+msgstr ""
+
+#: class-easywpsmtp-admin.php:546
+msgid "Support"
+msgstr ""
+
+#. translators: %s is replaced by support forum URL
+#: class-easywpsmtp-admin.php:552
+msgctxt "%s is replaced by \"Support Forum\" link"
+msgid "Having issues or difficulties? You can post your issue on the %s"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:556
+msgid "Support Forum"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:563
+msgid "Rate Us"
+msgstr ""
+
+#. translators: %s is replaced by rating link
+#: class-easywpsmtp-admin.php:569
+msgctxt "%s is replaced by \"rating\" link"
+msgid "Like the plugin? Please give us a %s"
+msgstr ""
+
+#: class-easywpsmtp-admin.php:573
+msgid "rating"
+msgstr ""
+
+#. translators: %1$s - plugin name, %2$s - min core plugin version, %3$s - installed core plugin version
+#: class-easywpsmtp-utils.php:105
+msgid "%1$s requires Easy WP SMTP plugin minimum version to be %2$s (you have version %3$s installed). Please update Easy WP SMTP plugin."
+msgstr ""
+
+#. translators: %s URL to the plugin's settings page.
+#: easy-wp-smtp.php:378
+msgid "Please configure your SMTP credentials in the <a href=\"%s\">settings menu</a> in order to send email using Easy WP SMTP plugin."
+msgstr ""
+
+#: easy-wp-smtp.php:404
+msgid "Can't clear log - file is not writeable."
+msgstr ""
+
+#: easy-wp-smtp.php:437
+#: easy-wp-smtp.php:445
+msgid "Settings"
+msgstr ""
+
+#: easy-wp-smtp.php:610
+msgid "Please refresh the page and try again."
+msgstr ""
+
+#: inc/UserFeedback.php:75
+msgid "Are you enjoying Easy WP SMTP?"
+msgstr ""
+
+#: inc/UserFeedback.php:78
+msgid "Not Really"
+msgstr ""
+
+#: inc/UserFeedback.php:82
+msgid "We're sorry to hear you aren't enjoying Easy WP SMTP. We would love a chance to improve. Could you take a minute and let us know what we can do better?"
+msgstr ""
+
+#: inc/UserFeedback.php:87
+msgid "Give Feedback"
+msgstr ""
+
+#: inc/UserFeedback.php:92
+msgid "No thanks"
+msgstr ""
+
+#: inc/UserFeedback.php:97
+msgid "That’s awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
+msgstr ""
+
+#: inc/UserFeedback.php:98
+msgid "~ Easy WP SMTP team"
+msgstr ""
+
+#: inc/UserFeedback.php:101
+msgid "OK, you deserve it"
+msgstr ""
+
+#: inc/UserFeedback.php:103
+msgid "Nope, maybe later"
+msgstr ""
+
+#: inc/UserFeedback.php:104
+msgid "I already did"
+msgstr ""

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Jobs4You : Registration</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="./images/favicon/favicon.ico">
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+    <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
+                    <a class="navbar-brand" href="index.html">
+                        <span>
+                            Jobs4You
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                        <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                            <form class="form-inline search-form ml-0 mr-lg-4" id="search-form" action="search.html" method="post">
+                                <input class="form-control" id="search_txt" name="search_txt" placeholder="Search Jobs" required="required">
+                                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                            </form>
+                            <ul class="navbar-nav  ">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="job.html"> Jobs </a>
+                                </li>
+                            </ul>
+                            <ul class="user_option navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="login.html"> <img src="images/login.png" alt="">
+                                        <span>Login</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="registration.html"> <img src="images/register.png" alt="">
+                                        <span>Register</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header section -->
+    </div>
+    <!-- Registraion Form -->
+    <div class="container-fluid">
+        <div class="auth-page-wrap">
+            <div class="auth-left">
+                <h2 class="page-title">Registration</h2>
+                <form class="inner-form registraion-form" id="user_registration" method="post" action="">
+                    <div class="mb-3">
+                        <label for="fname">First name</label>
+                        <input type="text" class="form-control" id="fname" name="fname" minlength="3" maxlength="15" placeholder="First name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="lname">Last name</label>
+                        <input type="text" class="form-control" id="lname" name="lname" minlength="3" maxlength="15" placeholder="Last name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mobile">Mobile</label>
+                        <input type="number" class="form-control" id="mobile" name="mobile" maxlength="12" placeholder="Mobile" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email_r">Email</label>
+                        <input type="email" class="form-control" id="email_r" name="email_r" maxlength="30" placeholder="Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="user_pwd">Password</label>
+                        <input type="password" class="form-control" id="user_pwd" name="user_pwd" minlength="8" maxlength="20" placeholder="Password" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="cpwd">Confirm Password</label>
+                        <input type="password" class="form-control" id="cpwd" name="cpwd" minlength="8" maxlength="20" placeholder="Confirm Password" required>
+                    </div>
+                    <div class="mb-3">  
+                        <label for="user_type_select">User type</label>                      
+                        <select class="custom-select h-100" id="user_type_select" name="user_type_select" required> 
+                          <option selected disabled>Select User type</option>
+                          <option value="jobseeker-form.html">Jobseeker</option>
+                          <option value="company-form.html">Company</option>                          
+                        </select>                        
+                    </div>
+
+                    <div class="w-100 text-center mb-3">
+                        <button class="btn btn-dark" type="submit">Next</button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="auth-right">
+                <img src="images/job-hunt.svg">
+            </div>
+        </div>
+    </div>
+    <!-- End Registraion Form -->
+
+    <!-- info section -->
+    <section class="info_section layout_padding2-bottom layout_padding-top">
+        <div class="container info_content">
+            <div>
+                <div class="row">
+                    <div class="col-md-3 about_links">
+                        <div class="d-flex">
+                            <h5>
+                                About Us
+                            </h5>
+                        </div>
+                        <div class="d-flex ">
+                           <ul>
+                            <li>
+                              <a href="job.html">Jobs</a>
+                            </li>                                
+                            <li>
+                              <a href="contact-us.html">Contact Us</a>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="social-box">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="images/fb.png" alt="fb" />
+                            </a>
+                            <a href="https://twitter.com/" target="_blank">
+                                <img src="images/twitter.png" alt="twitter" />
+                            </a>
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <img src="images/linkedin.png" alt="linkedin" />
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="images/insta.png" alt="insta" />
+                            </a>
+                        </div>
+                        <div class="form_container mt-2">
+                            <form action="thank-you.html" method="post" id="subscribeMail_page">
+                                <input type="email" placeholder="Enter Your email" id="subscribeMail" name="subscribeMail" required="required" />
+                                <button type="submit">
+                                    Subscribe
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- end info_section -->
+
+
+    <!-- footer section -->
+    <footer class="container-fluid footer_section">
+        <p>
+            &copy; 2023 All Rights Reserved
+        </p>
+    </footer>
+    <!-- footer section -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
